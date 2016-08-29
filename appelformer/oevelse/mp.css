@@ -3,9 +3,7 @@ body {
     background-repeat: no-repeat;
     font-family: arial,Verdana,Helvetica;
     font-weight: 400;
-    width: 580px;
-    height:484px;
-
+   
 }
 .background-img {
     background-image: url("appel-quiz-BG.jpg");
@@ -86,4 +84,8 @@ body {
 .selected {
     border: 2px dashed white;
     padding: 9px;
+}
+#quiz {
+    margin-left: 40px;
+    margin-top: 10px;
 }
