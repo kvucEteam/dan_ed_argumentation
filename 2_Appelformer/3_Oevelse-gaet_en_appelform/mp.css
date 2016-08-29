@@ -1,0 +1,89 @@
+
+body {
+    background-repeat: no-repeat;
+    font-family: arial,Verdana,Helvetica;
+    font-weight: 400;
+    width: 580px;
+    height:484px;
+
+}
+.background-img {
+    background-image: url("appel-quiz-BG.jpg");
+    margin:0px; 
+}
+.btn {
+    background-color: lightblue;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 24px;
+    margin: 2px;
+    padding: 11px;
+}
+#knapper {
+    bottom: 25px;
+    left: 266px;
+    position: absolute;
+}
+.popud {
+    background-color: #FFFFFF;
+    border: 0 solid #AAAAAA;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+    left: 193px;
+    opacity: 1;
+    padding: 24px;
+    position: absolute;
+    top: 29px;
+    width: 250px;
+    z-index: 100;
+}
+#btn_again {
+    margin-left: 15px;
+}
+.popud_txt {
+    color: #333333;
+}
+.bubble {
+    background-color: #EEEEEE;
+    border-radius: 4px 4px 4px 4px;
+    color: #666666;
+    font-size: 14px;
+    left: 290px;
+    padding: 10px;
+    position: absolute;
+    top: 260px;
+    width: 235px;
+}
+.bubble:after {
+    border-color: #EEEEEE transparent;
+    border-style: solid;
+    border-width: 22px 16px 0;
+    bottom: -21px;
+    content: "";
+    display: block;
+    left: 60px;
+    position: absolute;
+    width: 0;
+    z-index: 1;
+}
+.popud:after {
+    border-color: #FFFFFF transparent;
+    border-style: solid;
+    border-width: 22px 16px 0;
+    bottom: -21px;
+    content: "";
+    display: block;
+    left: 24px;
+    position: absolute;
+    width: 0;
+    z-index: 1;
+}
+#container {
+    height: 484px;
+}
+.selected {
+    border: 2px dashed white;
+    padding: 9px;
+}

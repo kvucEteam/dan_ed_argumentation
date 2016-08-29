@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<wrap>
+
+	<spm
+	tekst="Når man på stadion oplever at fodbold og kunst smelter sammen i en højere enhed og man ganske mundlam ser bolden brage sejrsstolt ind i netmaskerne, så ved man at men har set: Årets mål!"
+	korrekt="P"
+	></spm>
+	<spm
+	tekst="På grund af den tekniske sværhedsgrad og den atletiske udførsel kårer DBU det til årets mål."
+	korrekt="L"
+	></spm>
+	<spm
+	tekst="Det er årets mål. Jeg har været landstræner i 26 år, og jeg har aldrig set så flot et mål."
+	korrekt="E"
+	></spm>
+
+	<spm
+	tekst="Ifølge FNs klimapanel vil temperaturen  på jorden i 2100 være steget med 7,5 grader. Hvilket vil ændrer den nuværende globale klimatilstand markant."
+	korrekt="L"
+	></spm>
+	<spm
+	tekst="Det er en katastrofe. Jeg har boet og arbejdet på grønland hele mit liv og jeg har aldrig set sneen smelte så hurtigt som nu."
+	korrekt="E"
+	></spm>
+	<spm
+	tekst="Er det denne jord vi vil give videre til vores børn? Eller er det en klode der vrider sig i smerte over den menneskeskabte globale opvarmning? Så er det ikke i morgen, i næste uge eller næste år vi skal vende katastrofekursen. Vi står ved kanten til afgrunden og det er NU eller aldrig"
+	korrekt="P"
+	></spm>
+
+<spm
+	tekst="Når bøgen springer ud i maj, når sneen falder blidt i december og når vi til hverdag står sammen om hyggen, så er det ikke svært at forstå at vi her i klaphatten og HC Andersens land er verdens lykkeligste folk."
+	korrekt="P"
+	></spm>
+	<spm
+	tekst="Danskerne er et lykkeligt folk. I mine 25 år som læge, har jeg de sidste 2 år udskrevet flere lykkepiller end jeg gjorde de første 20 år."
+	korrekt="E"
+	></spm>
+	<spm
+	tekst="Danskerne er verdens lykkeligste folk. Det slår OECD fast i deres årlige undersøgelse af lykken i 155 lande."
+	korrekt="L"
+	></spm>
+</wrap>

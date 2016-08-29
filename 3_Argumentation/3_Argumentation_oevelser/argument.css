@@ -1,0 +1,181 @@
+
+body {
+    background-color: #F3F3F5;
+    background-image: url("img/BG.jpg");
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-size: 16px;
+    height: 435px;
+    width: 580px;
+}
+.del {
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+.selected {
+    background-color: #EBEBEB;
+    border: 2px dashed white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0;
+}
+#model {
+    background-image: url("img/stiplet-valg.png");
+    height: 320px;
+    margin-left: -14px;
+    margin-top: -6px;
+    width: 580px;
+}
+.bogstaver, .hjemmel {
+    color: #DEE6E8;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 42px;
+    font-weight: bold;
+    position: absolute;
+    text-shadow: 2px 2px #115D73;
+}
+#b {
+    left: 65px;
+    top: 38px;
+}
+#h {
+    left: 151px;
+    top: 136px;
+}
+#r {
+    left: 152px;
+    top: 248px;
+}
+#s {
+    left: 265px;
+    top: 40px;
+}
+#g {
+    left: 265px;
+    top: 139px;
+}
+#p {
+    left: 448px;
+    top: 37px;
+}
+#q_mark_l {
+    left: -50px;
+    position: absolute;
+}
+#q_mark2 {
+    left: 450px;
+    position: relative;
+    top: -30px;
+}
+#text_container {
+    font-size: 14px;
+    left: 60px;
+    line-height: 160%;
+    padding: 8px;
+    position: absolute;
+    top: 347px;
+    width: 443px;
+}
+.instruktion {
+    background-color: white;
+    border-radius: 4px 4px 4px 4px;
+    color: #333333;
+    font-size: 16px;
+    left: 260px;
+    opacity: 0.7;
+    padding: 8px;
+    position: absolute;
+    top: 320px;
+    z-index: 0;
+}
+.hjemmel_del:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+#popud_hjemmel {
+    background-color: #EDEEF0;
+    border: 2px solid #FB467B;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 12px;
+    left: -530px;
+    padding: 8px;
+    position: absolute;
+    top: 210px;
+    width: 430px;
+    z-index: 0;
+}
+#hjemmel_valgt {
+    color: #FB467B;
+    font-size: 11px;
+    font-weight: bold;
+    left: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 170px;
+    width: 440px;
+}
+.bubble .bubble2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    width: 465px;
+}
+.bubble:after {
+    border-color: #FFFFFF transparent;
+    border-style: solid;
+    border-width: 0 14px 17px;
+    content: "";
+    display: block;
+    left: 60px;
+    position: absolute;
+    top: -15px;
+    width: 0;
+    z-index: 1;
+}
+.bubble2:after {
+    border-color: #FFFFFF transparent;
+    border-style: solid;
+    border-width: 14px 12px 0;
+    bottom: -12px;
+    content: "";
+    display: block;
+    left: 182px;
+    position: absolute;
+    width: 0;
+    z-index: 1;
+}
+hr {
+    background-color: #ACACAC;
+    border-width: 0;
+    color: #AAAAAA;
+    height: 1px;
+    line-height: 5;
+    margin-left: -7px;
+    page-break-after: always;
+    text-align: left;
+    width: 444px;
+}
+#tjek_svar {
+    background-color: #EDEEF0;
+    border: 1px solid #FB467B;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 15px;
+    left: 470px;
+    padding: 4px;
+    position: absolute;
+    top: 269px;
+}
+#korrekt {
+    background-color: white;
+    border-radius: 4px 4px 4px 4px;
+    color: #333333;
+    font-size: 16px;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0.7;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: 207px;
+    width: 200px;
+}

@@ -1,0 +1,80 @@
+
+body {
+    background-color: #F3F3F5;
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-size: 16px;
+    height: 394px;
+    margin: 0;
+    padding: 0;
+}
+
+.straalekrans {
+    cursor: pointer;
+    position: absolute;
+    border-radius: 15px;
+    border-width: 0px;
+    border-style: dashed;
+    border-color: #FFFFFF;
+/*    border-color: rgba(255,255,255,0);
+*/    margin: 0;
+    padding: 0;
+}
+
+.logos {
+    width: 119px;
+    height: 62px;
+    left: 73px;
+    top: 25px;
+}
+
+.etos {
+    width: 119px;
+    height: 62px;
+    left: 223px;
+    top: 25px;
+}
+
+.patos {
+    width: 119px;
+    height: 62px;
+    left: 373px;
+    top: 25px;
+}
+
+.aristoteles {
+    width: 270px;
+    height: 270px;
+    left: 145px;
+    top: 105px;
+    border-radius: 135px;
+}
+
+.skema {
+    position: absolute;
+    width: 82px;
+    height: 43px;
+    left: 414px;
+    top: 333px;
+    z-index: 1;
+    border-radius: 11px;
+    background: url('transparent.png') no-repeat;
+}
+
+.skemabillede {
+    position: absolute;
+    display: none;
+}
+
+hr {
+    background-color: #ACACAC;
+    border-width: 0;
+    color: #AAAAAA;
+    height: 1px;
+    line-height: 5;
+    margin-left: -7px;
+    page-break-after: always;
+    text-align: left;
+    width: 444px;
+}
